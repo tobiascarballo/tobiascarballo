@@ -4,11 +4,11 @@ def generate_info_card(output_svg="info-card.svg"):
     card_data = {
         "title": "tobias@fedora ~ $ neofetch",
         "name": "Tobias Carballo",
-        "role": "Systems Analyst & Full-Stack Dev",
+        "role": "Systems Analyst &amp; Full-Stack Dev",
         "education": "Lic. Sistemas de Informacion (UADER)",
         "stack": "Java (Spring), Python, Node, Docker, Kafka",
         "cloud_db": "AWS, PostgreSQL, MongoDB, Redis",
-        "focus": "Event-Driven Architecture & Cloud",
+        "focus": "Event-Driven Architecture &amp; Cloud",
         "status": "Open to Backend / Full Stack roles"
     }
 
@@ -93,7 +93,7 @@ def generate_info_card(output_svg="info-card.svg"):
     with open(output_svg, "w", encoding="utf-8") as f:
         f.write(svg_content)
 
-    print(f"Tarjeta generada con exito: {output_svg}")
+    print("Tarjeta generada y corregida con exito: info-card.svg")
 
 if __name__ == "__main__":
     generate_info_card()

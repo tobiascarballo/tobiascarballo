@@ -1,9 +1,9 @@
-name: Update Profile Art
+name: Update Profile Art & Snake
 
 on:
   schedule:
-    - cron: "0 6 * * *" # Se ejecuta todos los días a las 06:00 UTC
-  workflow_dispatch: # Permite ejecutarlo manualmente desde GitHub si quieres
+    - cron: "0 6 * * *"
+  workflow_dispatch:
   push:
     branches: [main]
 
@@ -11,7 +11,7 @@ permissions:
   contents: write
 
 jobs:
-  refresh-heatmap:
+  refresh-profile:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -31,8 +31,16 @@ jobs:
           python scripts/fetch_contributions.py
           python scripts/render_heatmap_svg.py
 
-      - name: Commit and push if changed
+      - name: Generate Contribution Snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: tobiascarballo
+          outputs: |
+            dist/github-contribution-grid-snake.svg?palette=github-dark
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: refresh contribution graph [skip ci]"
-          file_pattern: "data/contributions.json contrib-heatmap.svg"
+          commit_message: "chore: update profile art & snake [skip ci]"
+          file_pattern: "data/contributions.json contrib-heatmap.svg dist/*"

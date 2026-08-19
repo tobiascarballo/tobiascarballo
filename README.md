@@ -1,11 +1,11 @@
 <div align="center">
 
-<!-- Heatmap de contribuciones -->
-<img src="./contrib-heatmap.svg" width="860" alt="Contribution Heatmap" />
+<!-- Snake de Contribuciones -->
+<img src="https://raw.githubusercontent.com/tobiascarballo/tobiascarballo/main/dist/github-contribution-grid-snake-dark.svg" alt="Snake animation" width="860" />
 
 <br><br>
 
-<!-- Retrato ASCII e Info Card alineados -->
+<!-- Retrato ASCII y Tarjeta Neofetch -->
 <table>
   <tr>
     <td valign="top" width="370">
@@ -19,18 +19,18 @@
 
 <br>
 
-<!-- Badges de Contacto y Perfiles -->
+<!-- Redes / Contacto -->
 <p align="center">
   <a href="https://linkedin.com/in/tobias-carballo" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   &nbsp;
-  <a href="mailto:carballotobias01@gmail.com">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  <a href="https://instagram.com/tobi.carballo" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
   &nbsp;
-  <a href="https://github.com/tobiascarballo">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=carballotobias01@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </p>
 
@@ -40,18 +40,35 @@
 
 ### 🚀 Proyectos Destacados
 
-* **[Mate-Único: Gestión de Stock](https://github.com/tobiascarballo/Ecommerce-MateUnico)**  
-  Solución Full Stack para optimización de inventario, tracking de productos, clientes y métricas de venta.
-
-* **[Microservicios de Transacciones Bancarias](https://github.com/tobiascarballo/Docker-Banking-Microservices)**  
-  Arquitectura orientada a eventos diseñada con **Node.js**, **Apache Kafka** y contenedores en **Docker**.
-
-* **[AWS Cloud Integration & Design Patterns](https://github.com/tobiascarballo/AWS-Cloud-Database-Integration)**  
-  Servidor TCP escalable integrado directamente con **AWS DynamoDB** aplicando patrones de diseño.
-
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>📦 <a href="https://github.com/tobiascarballo/Ecommerce-MateUnico">Mate-Único: Gestión & E-commerce</a></h4>
+      <p>Solución Full Stack para optimización de inventario, tracking de productos, clientes y métricas de venta[cite: 1].</p>
+      <code>JavaScript</code> <code>Full Stack</code> <code>Architecture</code>
+    </td>
+    <td width="50%" valign="top">
+      <h4>💳 <a href="https://github.com/tobiascarballo/Docker-Banking-Microservices">Microservicios Bancarios</a></h4>
+      <p>Arquitectura orientada a eventos con procesamiento asíncrono y contenerización[cite: 1].</p>
+      <code>Node.js</code> <code>Kafka</code> <code>Docker</code> <code>TypeScript</code>[cite: 1]
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>☁️ <a href="https://github.com/tobiascarballo/AWS-Cloud-Database-Integration">AWS Cloud Integration</a></h4>
+      <p>Servidor TCP integrado con base de datos NoSQL aplicando patrones de diseño escalables[cite: 1].</p>
+      <code>Python</code> <code>AWS DynamoDB</code> <code>Cloud Architecture</code>[cite: 1]
+    </td>
+    <td width="50%" valign="top">
+      <h4>✈️ <a href="https://github.com/tobiascarballo/VanillaJS-Flight-Search-Engine">Flight Search Engine</a></h4>
+      <p>Motor interactivo de búsqueda y filtrado de vuelos desarrollado con JavaScript nativo.</p>
+      <code>JavaScript</code> <code>DOM Manipulation</code> <code>Frontend</code>[cite: 1]
+    </td>
+  </tr>
+</table>
 
 ---
 
 <div align="center">
-  <sub>Built with Python, SVG Keyframe Animations & GitHub Actions.</sub>
+  <sub>Built with Python, SVG Keyframes & GitHub Actions Automation.</sub>
 </div>
