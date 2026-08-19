@@ -44,25 +44,25 @@
   <tr>
     <td width="50%" valign="top">
       <h4>📦 <a href="https://github.com/tobiascarballo/Ecommerce-MateUnico">Mate-Único: Gestión & E-commerce</a></h4>
-      <p>Solución Full Stack para optimización de inventario, tracking de productos, clientes y métricas de venta[cite: 1].</p>
+      <p>Solución Full Stack para optimización de inventario, tracking de productos, clientes y métricas de venta.</p>
       <code>JavaScript</code> <code>Full Stack</code> <code>Architecture</code>
     </td>
     <td width="50%" valign="top">
       <h4>💳 <a href="https://github.com/tobiascarballo/Docker-Banking-Microservices">Microservicios Bancarios</a></h4>
-      <p>Arquitectura orientada a eventos con procesamiento asíncrono y contenerización[cite: 1].</p>
-      <code>Node.js</code> <code>Kafka</code> <code>Docker</code> <code>TypeScript</code>[cite: 1]
+      <p>Arquitectura orientada a eventos con procesamiento asíncrono y contenerización.</p>
+      <code>Node.js</code> <code>Kafka</code> <code>Docker</code> <code>TypeScript</code>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h4>☁️ <a href="https://github.com/tobiascarballo/AWS-Cloud-Database-Integration">AWS Cloud Integration</a></h4>
-      <p>Servidor TCP integrado con base de datos NoSQL aplicando patrones de diseño escalables[cite: 1].</p>
-      <code>Python</code> <code>AWS DynamoDB</code> <code>Cloud Architecture</code>[cite: 1]
+      <p>Servidor TCP integrado con base de datos NoSQL aplicando patrones de diseño escalables.</p>
+      <code>Python</code> <code>AWS DynamoDB</code> <code>Cloud Architecture</code>
     </td>
     <td width="50%" valign="top">
       <h4>✈️ <a href="https://github.com/tobiascarballo/VanillaJS-Flight-Search-Engine">Flight Search Engine</a></h4>
       <p>Motor interactivo de búsqueda y filtrado de vuelos desarrollado con JavaScript nativo.</p>
-      <code>JavaScript</code> <code>DOM Manipulation</code> <code>Frontend</code>[cite: 1]
+      <code>JavaScript</code> <code>DOM Manipulation</code> <code>Frontend</code>
     </td>
   </tr>
 </table>
