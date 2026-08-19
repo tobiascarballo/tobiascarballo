@@ -1,0 +1,38 @@
+name: Update Profile Art
+
+on:
+  schedule:
+    - cron: "0 6 * * *" # Se ejecuta todos los días a las 06:00 UTC
+  workflow_dispatch: # Permite ejecutarlo manualmente desde GitHub si quieres
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  refresh-heatmap:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install requests==2.32.3 beautifulsoup4==4.12.3
+
+      - name: Fetch and render contributions
+        run: |
+          python scripts/fetch_contributions.py
+          python scripts/render_heatmap_svg.py
+
+      - name: Commit and push if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh contribution graph [skip ci]"
+          file_pattern: "data/contributions.json contrib-heatmap.svg"

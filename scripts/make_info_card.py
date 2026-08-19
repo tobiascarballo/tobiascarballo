@@ -1,0 +1,99 @@
+import os
+
+def generate_info_card(output_svg="info-card.svg"):
+    card_data = {
+        "title": "tobias@fedora ~ $ neofetch",
+        "name": "Tobias Carballo",
+        "role": "Systems Analyst & Full-Stack Dev",
+        "education": "Lic. Sistemas de Informacion (UADER)",
+        "stack": "Java (Spring), Python, Node, Docker, Kafka",
+        "cloud_db": "AWS, PostgreSQL, MongoDB, Redis",
+        "focus": "Event-Driven Architecture & Cloud",
+        "status": "Open to Backend / Full Stack roles"
+    }
+
+    svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 320" width="490" height="320">
+  <style>
+    .title {{ font-family: "Courier New", Courier, monospace; font-size: 13px; font-weight: bold; fill: #58a6ff; }}
+    .key {{ font-family: "Courier New", Courier, monospace; font-size: 11px; font-weight: bold; fill: #79c0ff; }}
+    .val {{ font-family: "Courier New", Courier, monospace; font-size: 11px; fill: #c9d1d9; }}
+    .c-dot1 {{ fill: #ff5f56; }}
+    .c-dot2 {{ fill: #ffbd2e; }}
+    .c-dot3 {{ fill: #27c93f; }}
+    
+    @keyframes fadeIn {{
+      from {{ opacity: 0; transform: translateX(-6px); }}
+      to {{ opacity: 1; transform: translateX(0); }}
+    }}
+    .line {{ opacity: 0; animation: fadeIn 0.3s ease-out forwards; }}
+  </style>
+
+  <!-- Card Background -->
+  <rect width="100%" height="100%" fill="#0d1117" rx="8" stroke="#30363d" stroke-width="1"/>
+  
+  <!-- Terminal Header Bar -->
+  <rect width="100%" height="28" fill="#161b22" rx="8" />
+  <rect y="20" width="100%" height="8" fill="#161b22" />
+  <circle cx="15" cy="14" r="5" class="c-dot1" />
+  <circle cx="30" cy="14" r="5" class="c-dot2" />
+  <circle cx="45" cy="14" r="5" class="c-dot3" />
+  <text x="65" y="18" class="title">{card_data["title"]}</text>
+
+  <!-- Separator Line -->
+  <line x1="15" y1="36" x2="475" y2="36" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Neofetch content rows -->
+  <g class="line" style="animation-delay: 0.1s;">
+    <text x="15" y="62" class="key">User:</text>
+    <text x="110" y="62" class="val">{card_data["name"]}</text>
+  </g>
+
+  <g class="line" style="animation-delay: 0.2s;">
+    <text x="15" y="88" class="key">Role:</text>
+    <text x="110" y="88" class="val">{card_data["role"]}</text>
+  </g>
+
+  <g class="line" style="animation-delay: 0.3s;">
+    <text x="15" y="114" class="key">Studies:</text>
+    <text x="110" y="114" class="val">{card_data["education"]}</text>
+  </g>
+
+  <g class="line" style="animation-delay: 0.4s;">
+    <text x="15" y="140" class="key">Core Stack:</text>
+    <text x="110" y="140" class="val">{card_data["stack"]}</text>
+  </g>
+
+  <g class="line" style="animation-delay: 0.5s;">
+    <text x="15" y="166" class="key">Cloud &amp; DB:</text>
+    <text x="110" y="166" class="val">{card_data["cloud_db"]}</text>
+  </g>
+
+  <g class="line" style="animation-delay: 0.6s;">
+    <text x="15" y="192" class="key">Focus:</text>
+    <text x="110" y="192" class="val">{card_data["focus"]}</text>
+  </g>
+
+  <g class="line" style="animation-delay: 0.7s;">
+    <text x="15" y="218" class="key">Status:</text>
+    <text x="110" y="218" class="val">{card_data["status"]}</text>
+  </g>
+
+  <!-- Decorative Terminal Color Blocks -->
+  <g class="line" style="animation-delay: 0.85s;">
+    <rect x="15" y="255" width="22" height="12" fill="#ff7b72" rx="2"/>
+    <rect x="42" y="255" width="22" height="12" fill="#7ee787" rx="2"/>
+    <rect x="69" y="255" width="22" height="12" fill="#d29922" rx="2"/>
+    <rect x="96" y="255" width="22" height="12" fill="#58a6ff" rx="2"/>
+    <rect x="123" y="255" width="22" height="12" fill="#bc8cff" rx="2"/>
+    <rect x="150" y="255" width="22" height="12" fill="#39c5cf" rx="2"/>
+    <rect x="177" y="255" width="22" height="12" fill="#b1bac4" rx="2"/>
+  </g>
+</svg>'''
+
+    with open(output_svg, "w", encoding="utf-8") as f:
+        f.write(svg_content)
+
+    print(f"Tarjeta generada con exito: {output_svg}")
+
+if __name__ == "__main__":
+    generate_info_card()
