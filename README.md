@@ -38,7 +38,7 @@
 
 ---
 
-### 🚀 Proyectos Destacados
+### Proyectos Destacados
 
 <table>
   <tr>
