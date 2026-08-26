@@ -2,14 +2,14 @@ import os
 
 def generate_info_card(output_svg="info-card.svg"):
     card_data = {
-        "title": "tobias@fedora ~ $ neofetch",
+        "title": "tobias@uader ~ $ neofetch --arch",
         "name": "Tobias Carballo",
-        "role": "Systems Analyst &amp; Full-Stack Dev",
-        "education": "Lic. Sistemas de Informacion (UADER)",
-        "stack": "Java (Spring), Python, Node, Docker, Kafka",
-        "cloud_db": "AWS, PostgreSQL, MongoDB, Redis",
-        "focus": "Event-Driven Architecture &amp; Cloud",
-        "status": "Open to Backend / Full Stack roles"
+        "role": "Systems Analyst &amp; Software Developer",
+        "education": "Lic. en Sistemas de Información (UADER)",
+        "stack": "TypeScript, Java (Spring), Python, Node, React Native",
+        "cloud_db": "PostgreSQL, Redis (Geo/TTL), MongoDB, AWS, Docker",
+        "focus": "Event-Driven Systems &amp; High-Impact APIs",
+        "status": "🟢 Open to Professional Opportunities"
     }
 
     svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 320" width="490" height="320">
