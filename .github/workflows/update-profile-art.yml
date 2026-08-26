@@ -26,10 +26,12 @@ jobs:
         run: |
           pip install requests==2.32.3 beautifulsoup4==4.12.3
 
-      - name: Fetch and render contributions
+      - name: Fetch and render contributions & SVGs
         run: |
           python scripts/fetch_contributions.py
           python scripts/render_heatmap_svg.py
+          python scripts/make_info_card.py
+          python scripts/make_header_banner.py
 
       - name: Generate Contribution Snake
         uses: Platane/snk@v3
@@ -43,4 +45,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update profile art & snake [skip ci]"
-          file_pattern: "data/contributions.json contrib-heatmap.svg dist/*"
+          file_pattern: "data/contributions.json contrib-heatmap.svg dist/* header-banner.svg info-card.svg"

@@ -1,7 +1,9 @@
 <div align="center">
 
-<!-- Header Banner Dinámico -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:0D1117,50:161B22,100:0969DA&height=220&section=header&text=Tobias%20Carballo&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Systems%20Analyst%20%E2%80%A2%20Full%20Stack%20%26%20Backend%20Developer&descFontSize=17&descAlignY=62&descAlign=50" width="100%" alt="Header Banner" />
+<!-- Header Banner Local & Animado -->
+<img src="./header-banner.svg" width="860" alt="Tobias Carballo Header Banner" />
+
+<br>
 
 <!-- Typing Animation Subtitle -->
 <a href="https://github.com/tobiascarballo">
@@ -188,10 +190,10 @@ Me apasiona diseñar y construir soluciones de software de extremo a extremo, co
   <table border="0">
     <tr>
       <td valign="middle">
-        <img src="https://github-readme-stats.vercel.app/api?username=tobiascarballo&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=79C0FF&text_color=C9D1D9" alt="GitHub Stats" />
+        <img src="https://github-readme-stats-anuraghazra1.vercel.app/api?username=tobiascarballo&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=79C0FF&text_color=C9D1D9" alt="GitHub Stats" />
       </td>
       <td valign="middle">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tobiascarballo&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" alt="Top Languages" />
+        <img src="https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs/?username=tobiascarballo&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" alt="Top Languages" />
       </td>
     </tr>
   </table>
@@ -199,7 +201,7 @@ Me apasiona diseñar y construir soluciones de software de extremo a extremo, co
   <br>
 
   <!-- Streak Stats Card -->
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=tobiascarballo&theme=tokyonight&hide_border=true&background=0D1117&ring=58A6FF&fire=FF7B72&currStreakLabel=79C0FF" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=tobiascarballo&theme=tokyonight&hide_border=true&background=0D1117&ring=58A6FF&fire=FF7B72&currStreakLabel=79C0FF" alt="GitHub Streak" />
 
   <br><br>
 
