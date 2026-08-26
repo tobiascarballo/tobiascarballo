@@ -198,11 +198,6 @@ Me apasiona diseñar y construir soluciones de software de extremo a extremo, co
     </tr>
   </table>
 
-  <br>
-
-  <!-- Streak Stats Card -->
-  <img src="https://streak-stats.demolab.com?user=tobiascarballo&theme=tokyonight&hide_border=true&background=0D1117&ring=58A6FF&fire=FF7B72&currStreakLabel=79C0FF" alt="GitHub Streak" />
-
   <br><br>
 
   <!-- Snake Contribution Animation -->

@@ -99,8 +99,8 @@ def generate_header_banner(output_svg="header-banner.svg"):
 
     <!-- University Badge -->
     <g transform="translate(235, 26)">
-      <rect width="145" height="24" rx="12" fill="#161b22" stroke="#1f6feb" stroke-width="1.2" />
-      <text x="12" y="16" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="600" fill="#58a6ff">🎓 UADER ALUMNI</text>
+      <rect width="155" height="24" rx="12" fill="#161b22" stroke="#1f6feb" stroke-width="1.2" />
+      <text x="12" y="16" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="600" fill="#58a6ff">🎓 ALUMNO UADER</text>
     </g>
 
     <!-- Main Title -->
