@@ -58,7 +58,7 @@ Me apasiona diseñar y construir soluciones de software de extremo a extremo, co
 - 🎓 **Educación**: Analista en Sistemas de Información (UADER) · Cursando Licenciatura en Sistemas de Información.
 - ⚙️ **Foco de Ingeniería**: Arquitecturas orientadas a eventos (**Kafka**), APIs REST modulares y seguras, bases de datos relacionales/NoSQL optimizadas y caching avanzado con **Redis** (TTL, Geo-queries).
 - 📱 **Mobile & Web**: Desarrollo de aplicaciones móviles multiplataforma con **React Native (Expo)** y experiencias web interactivas y escalables con **React, Next.js y Node.js**.
-- 🌐 **Idiomas**: Español (Nativo) · Inglés (Competencia técnica profesional).
+- 🌐 **Idiomas**: Español (Nativo) · Inglés (Competencia básica profesional).
 
 ---
 
