@@ -37,17 +37,7 @@
 
 <br>
 
-<!-- Retrato ASCII y Tarjeta Neofetch Interactiva -->
-<table>
-  <tr>
-    <td valign="top" width="370">
-      <img src="./profile-ascii.svg" width="370" alt="ASCII Portrait" />
-    </td>
-    <td valign="top" width="490">
-      <img src="./info-card.svg" width="490" alt="Neofetch Info Card" />
-    </td>
-  </tr>
-</table>
+<img src="./profile-ascii.svg" width="370" alt="ASCII Portrait" />
 
 </div>
 
