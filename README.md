@@ -35,10 +35,6 @@
   <img src="https://img.shields.io/badge/Location-Argentina-0969DA?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location" />
 </p>
 
-<br>
-
-<img src="./profile-ascii.svg" width="370" alt="ASCII Portrait" />
-
 </div>
 
 ---
