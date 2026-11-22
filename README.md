@@ -22,6 +22,10 @@
     <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   &nbsp;
+  <a href="https://tobiascarballo.vercel.app" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-Visit-0969DA?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+  </a>
+  &nbsp;
   <a href="https://github.com/tobiascarballo" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
@@ -58,22 +62,22 @@ Me apasiona diseñar y construir soluciones de software de extremo a extremo, co
 - 🎓 **Educación**: Analista en Sistemas de Información (UADER) · Cursando Licenciatura en Sistemas de Información.
 - ⚙️ **Foco de Ingeniería**: Arquitecturas orientadas a eventos (**Kafka**), APIs REST modulares y seguras, bases de datos relacionales/NoSQL optimizadas y caching avanzado con **Redis** (TTL, Geo-queries).
 - 📱 **Mobile & Web**: Desarrollo de aplicaciones móviles multiplataforma con **React Native (Expo)** y experiencias web interactivas y escalables con **React, Next.js y Node.js**.
-- 🌐 **Idiomas**: Español (Nativo) · Inglés (Competencia básica profesional).
+- 🌐 **Idiomas**: Español (Nativo) · Inglés (Intermedio B1+ — Lectura y escritura técnica).
 
 ---
 
 ## 🛠️ Stack Tecnológico & Herramientas
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,java,py,cs,react,nextjs,nodejs,express,nestjs,spring,postgres,mongodb,redis,mysql,aws,docker,kafka,git,githubactions,linux,postman,figma,tailwind,html,css" alt="Tech Stack Icons" />
+  <img src="https://skillicons.dev/icons?i=ts,js,java,py,react,nextjs,nodejs,express,spring,postgres,mongodb,redis,mysql,aws,docker,kafka,git,githubactions,linux,postman,figma,tailwind,html,css" alt="Tech Stack Icons" />
 </div>
 
 <br>
 
 | Área | Tecnologías & Herramientas |
 | :--- | :--- |
-| **💻 Lenguajes** | `TypeScript` `JavaScript (ES6+)` `Java` `Python` `SQL` `C#` `Bash` |
-| **⚙️ Backend & Arquitectura** | `Spring Boot` `Node.js` `Express.js` `NestJS` `Apache Kafka` `Microservicios` `RESTful APIs` |
+| **💻 Lenguajes** | `TypeScript` `JavaScript (ES6+)` `Java` `Python` `SQL` `Bash` |
+| **⚙️ Backend & Arquitectura** | `Spring Boot` `Node.js` `Express.js` `Apache Kafka` `Microservicios` `RESTful APIs` |
 | **🗄️ Bases de Datos & Caching** | `PostgreSQL` `Redis (GEO / TTL / Ranking)` `MongoDB` `MySQL` `AWS DynamoDB` `Sequelize` `JPA/Hibernate` |
 | **📱 Frontend & Mobile** | `React Native (Expo)` `React` `Next.js` `TailwindCSS` `HTML5` `CSS3` `JavaScript DOM` |
 | **☁️ DevOps & Cloud** | `Docker` `Docker Compose` `AWS (DynamoDB / Cloud)` `Git` `GitHub Actions (CI/CD)` `Linux (Fedora/Ubuntu)` |
@@ -218,6 +222,10 @@ Me apasiona diseñar y construir soluciones de software de extremo a extremo, co
   &nbsp;&nbsp;
   <a href="https://mail.google.com/mail/?view=cm&fs=1&to=carballotobias01@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Gmail-Enviar_Mensaje-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://tobiascarballo.vercel.app" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-Visitar-0969DA?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
   </a>
   &nbsp;&nbsp;
   <a href="https://github.com/tobiascarballo" target="_blank">
