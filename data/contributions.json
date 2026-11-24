@@ -1,6 +1,6 @@
 {
   "username": "tobiascarballo",
-  "total_contributions": 223,
+  "total_contributions": 224,
   "days": [
     {
       "date": "2025-11-23",
@@ -424,7 +424,7 @@
     },
     {
       "date": "2026-11-23",
-      "level": 0
+      "level": 1
     },
     {
       "date": "2025-11-25",
@@ -633,6 +633,10 @@
     {
       "date": "2026-11-17",
       "level": 1
+    },
+    {
+      "date": "2026-11-24",
+      "level": 0
     },
     {
       "date": "2025-11-26",
